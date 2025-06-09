@@ -1,8 +1,8 @@
 import React from 'react'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
-import About from '../components/About'
 import Card from '../components/Card'
+import About from '../components/About'
 import Services from '../components/Services'
 import Blog from '../components/Blog'
 import Contact from '../components/Contact'
@@ -13,8 +13,8 @@ const Main = () => {
     <div>
       <Header/>
       <Hero/>
-      <About/>
       <Card/>
+      <About/>
       <Services/>
       <Blog/>
       <Contact/>
