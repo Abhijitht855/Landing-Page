@@ -318,16 +318,9 @@ const Card = () => {
             }}
           >
             {cards.map((card, index) => (
-              <motion.div
-                key={index}
-                className="w-full flex-shrink-0 px-4"
-                variants={cardVariants}
-                initial="hidden"
-                animate={isInView && index === currentIndex ? "visible" : "hidden"}
-                custom={0}
-              >
+              <div key={index} className="w-full flex-shrink-0 px-4">
                 <CardItem card={card} />
-              </motion.div>
+              </div>
             ))}
           </div>
         </div>
